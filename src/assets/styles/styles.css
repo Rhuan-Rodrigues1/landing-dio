@@ -115,3 +115,22 @@ body {
   font-size: 16px;
   font-weight: 400;
 }
+
+#transform {
+  height: 500px;
+  background-size: cover;
+  background-image: url("../images/woman-code.png");
+  background-attachment: fixed;
+  border-top: 1px solid #33a8db80;
+  border-bottom: 1px solid #33a8db80;
+}
+
+#transform p {
+  color: white;
+  font-weight: 900;
+  text-shadow: 3px 2px 0px #33a8db;
+  font-size: 40px;
+  text-transform: lowercase;
+  max-width: 250px;
+  margin: 200px;
+}
