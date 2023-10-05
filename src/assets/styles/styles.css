@@ -4,6 +4,14 @@ body {
   background: black;
 }
 
+h2 {
+  color: #33a8db;
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 6.08px;
+  text-transform: uppercase;
+}
+
 #header-banner {
   background-image: linear-gradient(
       rgba(0, 0, 0, 0.6),
@@ -86,14 +94,6 @@ body {
   margin-bottom: 98px;
 }
 
-#course .title-course {
-  color: #33a8db;
-  font-weight: 600;
-  font-size: 30px;
-  letter-spacing: 6.08px;
-  text-transform: uppercase;
-}
-
 #course .modules .module {
   color: white;
   width: 530px;
@@ -133,4 +133,26 @@ body {
   text-transform: lowercase;
   max-width: 250px;
   margin: 200px;
+}
+
+#professional .professional-container {
+  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin: 100px;
+}
+
+#professional .professional-title {
+  margin-bottom: 10px;
+  max-width: 800px;
+}
+
+#professional p {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
 }
